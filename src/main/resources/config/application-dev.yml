@@ -37,7 +37,7 @@ spring:
             hibernate.generate_statistics: true
     liquibase:
         contexts: dev
-        drop-first: true
+        drop-first: false
 
 server:
     port: 8080

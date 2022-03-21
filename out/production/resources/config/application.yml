@@ -51,4 +51,4 @@ management:
 
 application:
     batch:
-        inputPath: c:/input
+        inputPath: /media/HD/cursos/java/spring/patient-loader-batch/data

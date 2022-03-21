@@ -19,7 +19,7 @@ import com.pluralsight.springbatch.patientbatchloader.config.Constants;
 import com.pluralsight.springbatch.patientbatchloader.config.DefaultProfileUtil;
 
 /**
- * Main Spring Boot application definition. 
+ * Main Spring Boot application definition.
  */
 @SpringBootApplication
 @EnableConfigurationProperties({ LiquibaseProperties.class, ApplicationProperties.class })
@@ -58,7 +58,7 @@ public class PatientBatchLoaderApp {
 	 * @throws UnknownHostException
 	 *             if the local host name could not be resolved into an address
 	 */
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		SpringApplication app = new SpringApplication(PatientBatchLoaderApp.class);
 		DefaultProfileUtil.addDefaultProfile(app);
 		Environment env = app.run(args).getEnvironment();
@@ -67,5 +67,5 @@ public class PatientBatchLoaderApp {
 						+ "Spring Batch Application '{}' is running!"
 						+ "Profile(s): \t{}\n----------------------------------------------------------",
 				env.getProperty("spring.application.name"), env.getActiveProfiles());
-	}
+	}*/
 }
